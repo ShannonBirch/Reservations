@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Appointments</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_upcoming">There are currently no upcoming events. You should book some</string>
+    <string name="no_favourites">You currently have no favourites. You should use try some resteraunts out!</string>
+
+    <!--Single Business Activity Strings-->
+    <string name="bookButton">Book</string>
+    <string name="favouriteButtonF">Add to Favourites</string>
+    <string name="favouriteButtonT">Remove From Favourites</string>
+
+    <!--Single Booking Actiivity Strings-->
+    <string name="cancelButton">Cancel Booking</string>
+    <string name="dismissButton">Dismiss Cancelled Booking</string>
+
+
+</resources>

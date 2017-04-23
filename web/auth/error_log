@@ -1,0 +1,52 @@
+[01-Apr-2017 17:16:51 America/Chicago] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home2/shannonb/public_html/appointments/auth/register.php on line 42
+[01-Apr-2017 17:18:03 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'shannonb_Auth'@'localhost' (using password: YES) in /home2/shannonb/public_html/appointments/auth/register.php on line 33
+[01-Apr-2017 19:24:18 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home2/shannonb/public_html/appointments/auth/login.php on line 43
+[02-Apr-2017 18:04:50 America/Chicago] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home2/shannonb/public_html/appointments/auth/register.php on line 81
+[07-Apr-2017 20:00:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home2/shannonb/public_html/appointments/auth/logout.php on line 41
+[07-Apr-2017 20:01:34 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home2/shannonb/public_html/appointments/auth/logout.php on line 41
+[07-Apr-2017 20:02:29 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home2/shannonb/public_html/appointments/auth/logout.php on line 41
+[07-Apr-2017 20:02:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home2/shannonb/public_html/appointments/auth/logout.php on line 41
+[07-Apr-2017 20:03:37 America/Chicago] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE), expecting ',' or ';' in /home2/shannonb/public_html/appointments/auth/logout.php on line 45
+[07-Apr-2017 20:05:01 America/Chicago] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE), expecting ',' or ';' in /home2/shannonb/public_html/appointments/auth/logout.php on line 45
+[07-Apr-2017 20:05:05 America/Chicago] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE), expecting ',' or ';' in /home2/shannonb/public_html/appointments/auth/logout.php on line 45
+[21-Apr-2017 16:32:37 America/Chicago] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home2/shannonb/public_html/appointments/auth/login.php on line 55
+[21-Apr-2017 16:33:16 America/Chicago] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home2/shannonb/public_html/appointments/auth/login.php on line 55
+[21-Apr-2017 16:46:51 America/Chicago] PHP Warning:  mysql_real_escape_string(): Access denied for user 'shannonb'@'localhost' (using password: NO) in /home2/shannonb/public_html/appointments/auth/login.php on line 38
+[21-Apr-2017 16:46:51 America/Chicago] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home2/shannonb/public_html/appointments/auth/login.php on line 38
+[22-Apr-2017 07:38:07 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:43:52 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:43:57 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:44:42 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:44:44 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:44:50 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:47:00 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:48:29 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:49:21 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:49:22 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:49:23 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:49:23 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:49:23 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:49:23 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:53:40 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:53:44 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:53:52 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:53:56 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:53:58 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:53:58 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:53:59 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:53:59 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:54:17 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:54:19 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:54:19 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:54:27 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:55:01 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:55:03 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:55:28 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:55:28 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:55:29 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 07:55:37 America/Chicago] PHP Fatal error:  Call to undefined function getBusAuthConn() in /home2/shannonb/public_html/appointments/auth/busRegister.php on line 29
+[22-Apr-2017 23:22:13 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home2/shannonb/public_html/appointments/auth/busLogout.php on line 16
+[22-Apr-2017 23:22:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/shannonb/public_html/appointments/auth/busLogout.php:16) in /home2/shannonb/public_html/appointments/auth/busLogout.php on line 18
+[22-Apr-2017 23:22:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/shannonb/public_html/appointments/auth/busLogout.php:16) in /home2/shannonb/public_html/appointments/auth/busLogout.php on line 19
+[22-Apr-2017 23:24:18 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/shannonb/public_html/appointments/auth/busLogout.php:16) in /home2/shannonb/public_html/appointments/auth/busLogout.php on line 18
+[22-Apr-2017 23:24:18 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/shannonb/public_html/appointments/auth/busLogout.php:16) in /home2/shannonb/public_html/appointments/auth/busLogout.php on line 19

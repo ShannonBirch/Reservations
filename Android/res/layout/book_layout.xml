@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/coordlayoutbook">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:paddingTop="?attr/actionBarSize">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Name Label -->
+            <TextView android:id="@+id/business_name_book_l"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:textSize="22dip"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:paddingBottom="10dip"
+                android:textColor="#dc6800"/>
+            <!-- Address Label -->
+            <TextView android:id="@+id/num_and_line1_book"
+                android:paddingTop="40dip"
+                android:paddingLeft="180dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+            <!-- ID Label -->
+            <TextView android:id="@+id/id_label"
+                android:paddingTop="200dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#acacac"/>
+            <TextView
+                android:id="@+id/date"
+                android:paddingTop="230dp"
+                android:paddingLeft="5dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:onClick="showDatePickerDialog"
+                />
+            <TextView
+                android:id="@+id/time"
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="185dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:onClick="showTimePickerDialog"
+                />
+            <Spinner
+                android:id="@+id/prioritySpinner"
+                android:layout_marginTop="280dp"
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+
+            <Button
+                android:layout_marginTop="350dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:text="Confirm"
+                android:onClick="createBooking"
+                />
+
+
+
+
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+    </android.support.design.widget.CoordinatorLayout>
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer" />
+
+</android.support.v4.widget.DrawerLayout>
